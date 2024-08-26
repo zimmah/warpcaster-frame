@@ -58,6 +58,6 @@ func handleGetFrameByID(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Header().Set("Content-Type", "text/html")
-	w.Write([]byte(placeholderFrame))
 	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(placeholderFrame))
 }
