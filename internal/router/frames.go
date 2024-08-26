@@ -58,12 +58,7 @@ func handleGetFrameByID(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Print(r)
 	w.Header().Set("Content-Type", "text/html")
-	statusCode, err := w.Write([]byte(placeholderFrame))
-	if err != nil {
-		respondWithError(w, statusCode, "Couldn't generate frame")
-		return
-	}
-	w.WriteHeader(statusCode)
+	w.Write([]byte(placeholderFrame))
+	w.WriteHeader(http.StatusOK)
 }
