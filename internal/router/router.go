@@ -9,7 +9,7 @@ import
 
 func Router() {
 	mux := http.NewServeMux()
-	mux.Handle("GET /api/frames/{frameID}", logger(http.HandlerFunc(handleGetFrameByID)))
+	mux.Handle("POST /api/frames/{frameID}", logger(http.HandlerFunc(handleGetFrameByID)))
 
 	port := os.Getenv("PORT")
 	server := &http.Server{

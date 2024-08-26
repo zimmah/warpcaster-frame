@@ -14,5 +14,6 @@ func handleGetFrameByID(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Println(frameID)
+	w.WriteHeader(200)
 	// got to serve a new frame by ID
 }
