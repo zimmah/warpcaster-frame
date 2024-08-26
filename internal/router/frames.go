@@ -14,7 +14,7 @@ const placeholderFrame = `<!DOCTYPE html>
     <meta
       property="fc:frame:image"
       name="fc:frame:image"
-      content="https://fastly.picsum.photos/id/237/300/300.jpg"
+      content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     />
     <meta
       property="fc:frame:image:aspect_ratio"
@@ -24,7 +24,7 @@ const placeholderFrame = `<!DOCTYPE html>
     <meta
       property="og:image"
       name="og:image"
-      content="https://fastly.picsum.photos/id/237/300/300.jpg"
+      content="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     />
     <meta
       name="fc:frame:post_url"
@@ -42,9 +42,9 @@ const placeholderFrame = `<!DOCTYPE html>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>this is a different frame, with an dog</h1>
+    <h1>this is a different frame, with a landscape</h1>
     <img
-      src="https://fastly.picsum.photos/id/237/300/300.jpg"
+      src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     />
   </body>
 </html>
