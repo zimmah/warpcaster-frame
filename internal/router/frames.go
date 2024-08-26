@@ -3,7 +3,6 @@ package router
 import (
 	"net/http"
 	"strconv"
-	"fmt"
 )
 
 const placeholderFrame = `<!DOCTYPE html>
